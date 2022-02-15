@@ -320,6 +320,10 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
+	
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
 
 # Perf
 PRODUCT_PACKAGES += \
