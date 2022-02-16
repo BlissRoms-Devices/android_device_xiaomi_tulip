@@ -146,6 +146,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.5:64 \
 	Snap \
     libdng_sdk.vendor \
+	vendor.xiaomi.hardware.motor@1.0.vendor \
     vendor.qti.hardware.camera.device@1.0:64
 
 # Component overrides
