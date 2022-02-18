@@ -143,6 +143,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
     android.hardware.camera.provider@2.4-service \
     android.hardware.camera.provider@2.5:64 \
+	android.hardware.camera.provider@2.4-impl:32 \
 	Snap \
     libdng_sdk.vendor \
 	libcamera2ndk_vendor \
