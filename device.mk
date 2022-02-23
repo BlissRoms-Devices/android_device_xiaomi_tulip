@@ -186,6 +186,7 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
 	vendor.display.config@1.0.vendor \
     vendor.display.config@2.0 \
+	vendor.display.config@2.0_vendor \
     vendor.display.config@1.1 \
 	vendor.display.config@1.11.vendor 
 
