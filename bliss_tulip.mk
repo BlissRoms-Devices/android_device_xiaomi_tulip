@@ -15,6 +15,9 @@ $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 # Inherit from tulip device
 $(call inherit-product, device/xiaomi/tulip/device.mk)
 
+# Bliss Properties
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device Info
 PRODUCT_NAME := bliss_tulip
 PRODUCT_DEVICE := tulip
