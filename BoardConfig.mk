@@ -60,6 +60,10 @@ BOARD_USES_QCOM_HARDWARE := true
 # ANT+
 BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
+# Additional Kernel Flags
+TARGET_KERNEL_ADDITIONAL_FLAGS +=
+HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" LLVM=1 LLVM_IAS=1
+
 # Audio
 BOARD_USES_ALSA_AUDIO := true
 USE_CUSTOM_AUDIO_POLICY := 1
