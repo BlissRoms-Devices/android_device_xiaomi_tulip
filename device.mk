@@ -415,8 +415,10 @@ PRODUCT_DEXPREOPT_SPEED_APPS += \
 # Shims
 PRODUCT_PACKAGES += \
     libcamera_sdm660_shim \
-    libshim_dpmframework
-
+    libshim_dpmframework \
+    libims_shim \
+    libwatermark_shim
+	
 # Thermal
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
